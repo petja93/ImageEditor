@@ -11,6 +11,7 @@ public class ImageEditorFrame extends JFrame{
 		setSize(400, 300);
 		createMenuBar();
 		setVisible(true);
+		setTitle("ImageEditorFrame");
 	}
 	
 	private void createMenuBar(){
